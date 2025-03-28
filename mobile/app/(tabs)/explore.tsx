@@ -20,9 +20,9 @@ export default function TabTwoScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Explore</ThemedText>
+        <ThemedText type="title">saldo R$5.000,00</ThemedText>
       </ThemedView>
-      <ThemedText>This app includes example code to help you get started.</ThemedText>
+      <ThemedText>saldo no credito R$8.500,98 </ThemedText>
       <Collapsible title="File-based routing">
         <ThemedText>
           This app has two screens:{' '}
@@ -30,8 +30,8 @@ export default function TabTwoScreen() {
           <ThemedText type="defaultSemiBold">app/(tabs)/explore.tsx</ThemedText>
         </ThemedText>
         <ThemedText>
-          The layout file in <ThemedText type="defaultSemiBold">app/(tabs)/_layout.tsx</ThemedText>{' '}
-          sets up the tab navigator.
+           <ThemedText type="defaultSemiBold">app/(tabs)/_layout.tsx</ThemedText>{' '}
+          
         </ThemedText>
         <ExternalLink href="https://docs.expo.dev/router/introduction">
           <ThemedText type="link">Learn more</ThemedText>

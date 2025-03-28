@@ -8,46 +8,46 @@ import { ThemedView } from '@/components/ThemedView';
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
+      headerBackgroundColor={{ light: '#A1CEDC', dark: '#8900bc' }}
       headerImage={
         <Image
-          source={require('@/assets/images/partial-react-logo.png')}
+          source={require('@/assets/images/nu.png')}
           style={styles.reactLogo}
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
+        <ThemedText type="title">Olá, novo usuario de nubank</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
+        <ThemedText type="subtitle">pagamentos </ThemedText>
         <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
+          seus <ThemedText type="defaultSemiBold">pagamentos e saldo </ThemedText> 
+          pressione {' '}
           <ThemedText type="defaultSemiBold">
             {Platform.select({
               ios: 'cmd + d',
               android: 'cmd + m',
-              web: 'F12'
+              web: 'aqui'
             })}
           </ThemedText>{' '}
-          to open developer tools.
+          para ver o seu saldo
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
+        <ThemedText type="subtitle">historico de pagamento</ThemedText>
         <ThemedText>
-          Tap the Explore tab to learn more about what's included in this starter app.
+          aqui esta todos os seus pagamentos passados e a quantia gasta
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
+        <ThemedText type="subtitle">PIX</ThemedText>
         <ThemedText>
-          When you're ready, run{' '}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+          aqui a maneira de pagar suas compras{' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>{' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>{' '}
+          <ThemedText type="defaultSemiBold"></ThemedText> {' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
