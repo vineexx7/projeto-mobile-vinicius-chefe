@@ -38,7 +38,7 @@ export default function TabTwoScreen() {
       <Collapsible title="bancos interligados">
       
        <ThemedText>caixa</ThemedText>
-       <ThemedText>bradesco                                                                                <ThemedText>santander</ThemedText>
+       <ThemedText>bradesco                                                                                 dd<ThemedText>santander</ThemedText>
         
         
           
@@ -46,7 +46,7 @@ export default function TabTwoScreen() {
           <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
       </Collapsible>
-      <Collapsible title="">
+      <Collapsible title="Images">
         <ThemedText>
           For static images, you can use the <ThemedText type="defaultSemiBold">@2x</ThemedText> and{' '}
           <ThemedText type="defaultSemiBold">@3x</ThemedText> suffixes to provide files for
