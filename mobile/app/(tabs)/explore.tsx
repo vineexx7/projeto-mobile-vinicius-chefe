@@ -10,40 +10,43 @@ import { IconSymbol } from '@/components/ui/IconSymbol';
 export default function TabTwoScreen() {
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
+      headerBackgroundColor={{ light: '#D0D0D0', dark: '#820AD1' }}
       headerImage={
-        <IconSymbol
-          size={310}
-          color="#808080"
-          name="chevron.left.forwardslash.chevron.right"
-          style={styles.headerImage}
-        />
+        <Image
+        source={require('@/assets/images/bank nu.png')}
+        style={styles.reactLogo}
+      />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">saldo R$5.000,00</ThemedText>
+        <ThemedText type="title">saldo R$5.408,27</ThemedText>
       </ThemedView>
       <ThemedText>saldo no credito R$8.500,98 </ThemedText>
-      <Collapsible title="File-based routing">
+      <Collapsible title="seus saldos em paises diferentes">
         <ThemedText>
-          This app has two screens:{' '}
-          <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> and{' '}
-          <ThemedText type="defaultSemiBold">app/(tabs)/explore.tsx</ThemedText>
+          EUA:R$555,55 {' '}
+          <ThemedText type="defaultSemiBold">                                                            GR:EUR 305,90</ThemedText> {' '}
+          <ThemedText type="defaultSemiBold">                                                                 CN:RMB5.050,00</ThemedText>
         </ThemedText>
         <ThemedText>
-           <ThemedText type="defaultSemiBold">app/(tabs)/_layout.tsx</ThemedText>{' '}
+           <ThemedText type="defaultSemiBold">JP:JP¥ 9.090,44</ThemedText>{' '}
           
         </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/router/introduction">
-          <ThemedText type="link">Learn more</ThemedText>
+        <ExternalLink href="">
+          <ThemedText type=""></ThemedText>
         </ExternalLink>
       </Collapsible>
-      <Collapsible title="Android, iOS, and web support">
-        <ThemedText>
-          You can open this project on Android, iOS, and the web. To open the web version, press{' '}
-          <ThemedText type="defaultSemiBold">w</ThemedText> in the terminal running this project.
+      <Collapsible title="bancos interligados">
+      
+       <ThemedText>caixa</ThemedText>
+       <ThemedText>bradesco                                                                                <ThemedText>santander</ThemedText>
+        
+        
+          
+           {' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
       </Collapsible>
-      <Collapsible title="Images">
+      <Collapsible title="">
         <ThemedText>
           For static images, you can use the <ThemedText type="defaultSemiBold">@2x</ThemedText> and{' '}
           <ThemedText type="defaultSemiBold">@3x</ThemedText> suffixes to provide files for
@@ -105,5 +108,12 @@ const styles = StyleSheet.create({
   titleContainer: {
     flexDirection: 'row',
     gap: 8,
+  },
+  reactLogo: {
+    height: '100%',
+    width: '100%',
+    bottom: 0,
+    left: 0,
+    position: 'absolute',
   },
 });
